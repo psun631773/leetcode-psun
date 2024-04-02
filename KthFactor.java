@@ -14,7 +14,11 @@ public class KthFactor {
      * Input: n = 12, k = 3
      * Output: 3
      * Explanation: Factors list is [1, 2, 3, 4, 6, 12], the 3rd factor is 3.
+     *## Time Complexity  O(N)
      *
+     * - O(1) -> O(N) -> O(NlogN) -> O(N^2) -> O(2^n) -> O(n!)
+     *
+     * ## Space Complexity O(squre N)
      * @param
      */
     public static int kthFactory(int n, int k) {
