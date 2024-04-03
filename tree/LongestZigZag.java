@@ -1,5 +1,14 @@
 package tree;
 
+
+/**
+ *
+ *
+ * 思路 遍历左子树 遍历右子树  左子树 遍历左右， 左左相同 重置， 右子树 右右相同 重置
+ *
+ *
+ *
+ */
 public class LongestZigZag {
 
     public int longestZigZag(TreeNode root) {
